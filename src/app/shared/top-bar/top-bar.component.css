@@ -1,0 +1,25 @@
+nav {
+  background-color: #320838;
+  display: flex;
+}
+
+nav:last-child {
+  margin-left: auto;
+}
+
+.links {
+  flex-grow: 1;
+}
+
+button {
+  margin: 0;
+  padding: 12px;
+  cursor: pointer;
+  background-color: #320838;
+  border: none;
+  color: white;
+}
+
+button:hover {
+  background-color: #4c0d57;
+}
